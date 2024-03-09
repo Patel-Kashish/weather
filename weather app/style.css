@@ -1,0 +1,108 @@
+body {
+    font-family : Arial, sans-serif;
+    background-image: url("images/sky.jpg");
+    background-size: cover;
+}
+
+.weather-container {
+    max-width : 400px;
+    margin : 0 auto;
+    text-align: center;
+    padding : 20px;
+    background-color: rgba(223, 231, 238, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+    margin-top : 105px;
+}
+
+h1 {
+    font-size : 26px;
+    color: #10100f;
+}
+
+.search {
+    width : 100%;
+    display : flex;
+    align-items : center;
+    justify-content: space-between;
+}
+
+input {
+    border : none;
+    outline : 0;
+    background: #ebfffc;
+    color : #555;
+    padding : 10px 25px;
+    width : 250px;
+    margin : 20px 0 0 20px;
+    border : 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    height : 40px;
+    width : 40px;
+    margin : 20px 20px 0;
+    background-color: #ebfffc;
+    border : none;
+    border-radius: 50%;
+    cursor : pointer;
+}
+
+button img {
+    width : 16px;
+}
+
+.weather-icon {
+    width : 100px;
+    margin-top : 30px;
+}
+
+.weather-info h1 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-top : -0.2px;
+}
+
+.weather-info h2 {
+    font-size: 25px;
+    font-weight: 400;
+    margin-top : -25px;
+}
+
+.details {
+    display : flex;
+    align-items: center;
+    justify-content : space-between;
+    padding : 0 20px;
+    margin-top : 50px;
+}
+
+.col {
+    font-size: small;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img {
+    width : 40px;
+    margin-right: 10px;
+}
+
+.humidity, .wind {
+    font-size : 18px;
+    margin-bottom : -5px;
+}
+
+.weather-info {
+    display: none;
+}
+
+.error {
+    text-align: left;
+    margin-left: 22px;
+    font-size: 13px;
+    margin-top: 10px;
+    display: none;
+}
